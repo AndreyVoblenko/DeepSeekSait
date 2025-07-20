@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DeepSeek Unofficial</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>DeepSeek Неофициальный</h1>
+        <p>Альтернативный интерфейс для общения с DeepSeek AI</p>
+    </header>
+
+    <main>
+        <div id="chat-container">
+            <div id="chat-history"></div>
+            <div id="input-area">
+                <textarea 
+                    id="user-input" 
+                    placeholder="Введите ваше сообщение..." 
+                    rows="3"
+                ></textarea>
+                <button id="send-btn">Отправить</button>
+            </div>
+        </div>
+        
+        <div id="api-key-section">
+            <input 
+                type="password" 
+                id="api-key" 
+                placeholder="Ваш DeepSeek API ключ"
+            >
+            <button id="save-key">Сохранить ключ</button>
+            <p class="hint">
+                Получить ключ: <a href="https://platform.deepseek.com/api-keys" target="_blank">platform.deepseek.com</a>
+            </p>
+        </div>
+    </main>
+
+    <footer>
+        <p>⚠️ Неофициальный интерфейс. Официальный сайт: 
+            <a href="https://deepseek.com" target="_blank">deepseek.com</a>
+        </p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
